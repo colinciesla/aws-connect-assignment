@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "ES2020",
+      "allowSyntheticDefaultImports": false,
+      "target": "ES2021",
+      "noImplicitAny": true,
+      "preserveConstEnums": true,
+      "outDir": "./built",
+      "sourceMap": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
